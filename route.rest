@@ -1,0 +1,27 @@
+GET http://localhost:3000/api/users
+
+###
+POST http://localhost:3000/api/users
+Content-Type: application/json
+
+{
+  "name": "John Dosee",
+  "email": "john.dosee@example.com"
+}	
+
+###
+GET http://localhost:3000/api/users/6a2a2e1ceeca26ef2c9649ae		
+
+###
+PUT http://localhost:3000/api/users/6a2a2e1ceeca26ef2c9649ae			
+Content-Type: application/json
+
+{
+  "name": "John Dosee",
+  "email": "john.dosee@example.com"
+}	
+
+###
+DELETE http://localhost:3000/api/users/6a2a2e1ceeca26ef2c9649ae	
+
+
